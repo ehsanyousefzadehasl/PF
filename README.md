@@ -1,5 +1,5 @@
 # Python Fundamentals Computer Assignments
-- Each Season has Some Exercise Which are Coded in Python Language
+**Each Season has Some Exercise Which are Coded in Python Language**
 
 #### [Season 1 - Warming-Up](https://github.com/ehsanyousefzadehasl/python-fundamentals/tree/master/Season%201)
 - This Season trying to Warm you up to Write Simple Expression to Execute
