@@ -1,6 +1,7 @@
 # Python Fundamentals Computer Assignments
 **Each Season has Some Exercise Which are Coded in Python Language**
-
+**Python Version: 3.5.2**
+**[Good Reference](http://devdocs.io/python~3.5/)**
 #### [Season 1 - Warming-Up](https://github.com/ehsanyousefzadehasl/python-fundamentals/tree/master/Season%201)
 - This Season trying to Warm you up to Write Simple Expression to Execute
 
