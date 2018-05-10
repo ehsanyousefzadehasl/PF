@@ -1,9 +1,6 @@
 import csv
-
-import operator
-# For the average
 from statistics import mean
-
+import operator
 # -------------------------------------------------------------------
 # method which calculates the average of each student
 # -------------------------------------------------------------------
@@ -29,8 +26,6 @@ def calculate_averages(input_file_name, output_file_name):
             #print(name + str(averageList[i]))
             writer.writerow([name]+[averageList[i]])
             i = i + 1
-
-
 # ---------------------------------------------------------------------
 #  method which calculates the average for each student and sorts it
 # ---------------------------------------------------------------------
@@ -60,9 +55,6 @@ def calculate_sorted_averages(input_file_name, output_file_name):
         writer = csv.writer(csv_file)
         for key in sortedNameAvgDict:
             writer.writerow([key[0]]+[key[1]])
-
-
-
 # --------------------------------------------------------------------
 # method which calculates and 3 worst average to out file
 # --------------------------------------------------------------------
@@ -96,9 +88,6 @@ def calculate_three_worst(input_file_name, output_file_name):
             if(i == 2):
                 break
             i = i + 1
-
-
-
 # -------------------------------------------------------------------
 # method which calculates and write 3 first students with average to file
 # -------------------------------------------------------------------
@@ -135,9 +124,6 @@ def calculate_three_best(input_file_name, output_file_name):
             if(i == 2):
                 break
             i = i + 1
-
-
-
 def calculate_average_of_averages(input_file_name, output_file_name):
     nameList = list();
     averageList = list();
@@ -157,10 +143,6 @@ def calculate_average_of_averages(input_file_name, output_file_name):
     with open(str(output_file_name), 'w', newline='') as csv_file:
         writer = csv.writer(csv_file)
         writer.writerow([totalAverage])
-
-
-
-
 # infile = 'grades.csv'
 # outfile = 'nameAverage.csv'
 # calculate_averages(infile, outfile);
