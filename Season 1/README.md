@@ -6,9 +6,6 @@
 ### [Exercise 1](https://github.com/ehsanyousefzadehasl/python-fundamentals/blob/master/Season%201/1.py)
 - This Exercises Wants us to Print "Hello World!" on the Screen, Like Following one:
 
-'''
-Hello World!
-'''
 
 ### [Exercise 2](https://github.com/ehsanyousefzadehasl/python-fundamentals/blob/master/Season%201/2.py)
 - This One Wants us to Input the Width and Height of a Rectangle Then Print its Area.
