@@ -1,4 +1,4 @@
-# Python Fundamentals Computer Assignments
+# Python Fundamentals
 **Each Season has Some Exercise Which are Coded in Python Language**
 
 **Python Version: 3.5.2**
